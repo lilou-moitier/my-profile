@@ -1,0 +1,144 @@
+/* Colors and fonts */
+
+
+body {
+    text-align: center;
+    background-color: #A7727D;
+    line-height: 1.0;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    color: #A7727D;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+
+  }
+
+  h2 {
+    color: #9E7676;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: bolder ;
+  }
+
+  #bio {
+    color: #B08BBB;
+  }
+
+  a {
+    text-decoration: none;
+    color: #913175;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #FF5F9E;
+  }
+
+
+  .img-circle {
+    border-radius: 35%;
+  }
+
+
+  div {
+    padding: 40px;
+    margin: 40px;
+    border: 3px solid #704F4F;
+    border-radius: 20px;
+    box-shadow: 10px 15px 35px whitesmoke;
+    width: 1000px auto;
+    background-color: #F5EBE0;
+  }
+
+/* Custom design with class (99% of the design) */
+
+  .container {
+    width: 1000px;
+    margin: 40px auto;
+  }
+
+  .card-white {
+    padding: 40px;
+    box-shadow: 10px 15px 35px #704F4F;
+  }
+
+  .btn-blue {
+    background-color: #EDDBC7;
+    padding: 15px 20px;
+    border-radius: 20px;
+  }
+
+  .btn-blue:hover{
+    background-color: #FF5F9E;
+    color: #EDDBC7;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+  .list-inline li {
+    display: inline;
+    padding: 10px;
+  }
+  .list-inline i{
+    font-size: 70px;
+    color: #A7727D;
+  }
+  .list-inline i:hover {
+    color: #FF5F9E;
+  }
+
+  .sidebar {
+    position: fixed;
+    width: 70px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #F5EBE0;
+    box-shadow: none;
+  }
+
+  .page-content {
+    margin-left: 200px;
+  }
+
+  .sidebar ul {
+    text-align: center;
+    padding-left: 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 3.0;
+    letter-spacing: 1px;
+  }
+
+/* custom design with id (design ajustments, the 1% design remaining) */
+
+  #introduction p{
+    margin-bottom: 40px;
+  }
+
+  #travelling p{
+    margin-bottom: 40px;
+  }
+
+
+/* responsive design */
+
+  @media (max-width: 960px) {
+  .container {
+    width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+  .container {
+    width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+  .container {
+    width: 300px;
+    }
+  }
